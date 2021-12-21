@@ -8,9 +8,9 @@ We used the Internet as the main source for collecting images, using the Latin s
 
 ### FPDATASET_DETECT
 
-The data set contains the original image and the label file in VOC format, corresponding to the 【FP60_all】 file in the project.
-BAIDU:
-GOOGLE:
+The data set contains the original image and the label file in VOC format, corresponding to the 【FP60_all】 file in the project. <br>
+BAIDU:xxxxxxxx <br>
+GOOGLE:xxxxxxxxxxxxx <br>
 
 ### FPDATASET_CLASSIFY
 
