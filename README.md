@@ -9,7 +9,24 @@ We used the Internet as the main source for collecting images, using the Latin s
 ### FPDATASET_DETECT
 
 The data set contains the original image and the label file in VOC format, corresponding to the 【FP60_all】 file in the project.
+BAIDU:
+GOOGLE:
 
 ### FPDATASET_CLASSIFY
 
 ### FPDATASET_PART
+
+# BHIC
+
+a two stage method
+
+## Getting Started
+
+
+## Introduction
+
+
+## weights download
+
+# License
+MIT
