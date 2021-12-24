@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f0b404b-81bb-46af-b53f-2211fedce78b" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/BHIC$run_yolov5_train.coverage" NAME="run_yolov5_train Coverage Results" MODIFIED="1640012076216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BHIC$run_test_once.coverage" NAME="run_test_once Coverage Results" MODIFIED="1640063205714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BHIC$detect.coverage" NAME="detect Coverage Results" MODIFIED="1637205432021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolov5-utils" />
+    <SUITE FILE_PATH="coverage/BHIC$MyYolov5Model__1_.coverage" NAME="MyYolov5Model (1) Coverage Results" MODIFIED="1639448978388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BHIC$run_densenet_train.coverage" NAME="run_densenet_train Coverage Results" MODIFIED="1640012316737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BHIC$MyYolov5Model.coverage" NAME="MyYolov5Model Coverage Results" MODIFIED="1638523281269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolov5-utils" />
+    <SUITE FILE_PATH="coverage/BHIC$BHIC.coverage" NAME="BHIC Coverage Results" MODIFIED="1640010443097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BHIC.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BHIC.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-775">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding>
+                <element signature="e#1#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_test_once.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run_test_once.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_yolov5_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_yolov5_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="743">
+              <caret line="478" column="23" selection-start-line="478" selection-start-column="23" selection-end-line="478" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_densenet_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_densenet_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hyp.scratch.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/hyp.scratch.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="get_voc.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/scripts/get_voc.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="general.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/general.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4825">
+              <caret line="212" selection-start-line="212" selection-end-line="225" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyYolov5Model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyYolov5Model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>times</find>
+      <find>nms</find>
+      <find>view_img</find>
+      <find>res_txt_name</find>
+      <find>res_label_path</find>
+      <find>file</find>
+      <find>label</find>
+      <find>lable</find>
+      <find>res_img_path</find>
+      <find>save_image</find>
+      <find>save_img</find>
+      <find>image_path</find>
+      <find>ss</find>
+      <find>insect_res</find>
+      <find>ONE</find>
+      <find>map</find>
+      <find>family_id_list</find>
+      <find>save_txt</find>
+      <find>self.augment = True</find>
+      <find>augment</find>
+      <find>agnostic_nms</find>
+      <find>best_model</find>
+      <find>name</find>
+      <find>mymodels</find>
+      <find>models</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>lable</replace>
+      <replace>label</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test_onece.py" />
+        <option value="$PROJECT_DIR$/InsectDefect.py" />
+        <option value="$PROJECT_DIR$/yolov5-utils/1_split.py" />
+        <option value="$PROJECT_DIR$/yolov5-utils/2_txt2yolo_label.py" />
+        <option value="$PROJECT_DIR$/yolov5-utils/data/FP60_family.yaml" />
+        <option value="$PROJECT_DIR$/yolov5-utils/detect.py" />
+        <option value="$PROJECT_DIR$/tengxundiaocha.py" />
+        <option value="$PROJECT_DIR$/yolov5-utils/MyYolov5Model.py" />
+        <option value="$PROJECT_DIR$/DenseNet/MyPartDenseNet121.py" />
+        <option value="$PROJECT_DIR$/data/insect_ke_FP15.yaml" />
+        <option value="$PROJECT_DIR$/data/insect_ke_FP40.yaml" />
+        <option value="$PROJECT_DIR$/data/FP60.yaml" />
+        <option value="$PROJECT_DIR$/data/FP15_family.yaml" />
+        <option value="$PROJECT_DIR$/data/FP40_family.yaml" />
+        <option value="$PROJECT_DIR$/data/FP60_family.yaml" />
+        <option value="$PROJECT_DIR$/data/insect_zhifen_FP15.yaml" />
+        <option value="$PROJECT_DIR$/data/insect_zhifen_FP40.yaml" />
+        <option value="$PROJECT_DIR$/data/FP40_all.yaml" />
+        <option value="$PROJECT_DIR$/DenseNet/MyDensenetModel.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/run_Train_Yolov5.py" />
+        <option value="$PROJECT_DIR$/BHIC.py" />
+        <option value="$PROJECT_DIR$/run_test_once.py" />
+        <option value="$PROJECT_DIR$/run_yolov5_train.py" />
+        <option value="$PROJECT_DIR$/MyYolov5Model.py" />
+        <option value="$PROJECT_DIR$/run_densenet_train.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BHIC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BHIC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BHIC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/PythonProject/BHIC/MyYolov5Model.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PythonProject\BHIC\all_test\FP60" />
+      <recent name="D:\PythonProject\BHIC" />
+      <recent name="D:\PythonProject\BHIC\yolov5-utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PythonProject\BHIC" />
+      <recent name="D:\PythonProject\BHIC\data" />
+      <recent name="D:\PythonProject\BHIC\utils" />
+      <recent name="D:\PythonProject\BHIC\DenseNet" />
+      <recent name="D:\PythonProject\BHIC\all_test\FP15" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_test_once">
+    <configuration name="BHIC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BHIC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BHIC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="MyYolov5Model (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BHIC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyYolov5Model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run_densenet_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BHIC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_densenet_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run_test_once" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BHIC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_test_once.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run_yolov5_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BHIC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_yolov5_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.MyYolov5Model (1)" />
+      <item itemvalue="Python.run_test_once" />
+      <item itemvalue="Python.BHIC" />
+      <item itemvalue="Python.run_yolov5_train" />
+      <item itemvalue="Python.run_densenet_train" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_test_once" />
+        <item itemvalue="Python.run_densenet_train" />
+        <item itemvalue="Python.run_yolov5_train" />
+        <item itemvalue="Python.BHIC" />
+        <item itemvalue="Python.MyYolov5Model (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f0b404b-81bb-46af-b53f-2211fedce78b" name="Default" comment="" />
+      <created>1637118532160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637118532160</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.76579523" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.41394335" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32897604" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/yolov5-utils/VOCData/images/1-1-18.jpg" />
+    <entry file="file://$PROJECT_DIR$/yolov5-utils/result/1638521089/images/1-1/0_1-1_0_930.jpg" />
+    <entry file="file://$PROJECT_DIR$/yolov5-utils/result/1638521175/images/1-1_0_930.jpg" />
+    <entry file="file://$PROJECT_DIR$/tengxundiaocha.py" />
+    <entry file="file://$PROJECT_DIR$/yolov5-utils/MyYolov5Model.py" />
+    <entry file="file://$PROJECT_DIR$/image/2-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/hubconf.py" />
+    <entry file="file://$PROJECT_DIR$/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/utils/myutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DenseNet/FP40_save_model/2/logger.txt" />
+    <entry file="file://D:/Anaconda3/envs/BHIC/Lib/site-packages/torch/serialization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/experimental.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weights/fp40_best.pt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weights/fp60_best.pt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="352">
+          <caret line="4891" column="28" selection-start-line="4891" selection-start-column="28" selection-end-line="4891" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/datasets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2185">
+          <caret line="180" column="62" selection-start-line="179" selection-start-column="10" selection-end-line="180" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DenseNet/FP15_save_model/2/logger.txt" />
+    <entry file="file://$PROJECT_DIR$/data/FP15_all.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/FP40_all.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/FP15_family.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="120" selection-start-line="7" selection-start-column="120" selection-end-line="7" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/FP40_family.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="120" selection-start-line="7" selection-start-column="120" selection-end-line="7" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/FP60_all.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/FP60_family.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="120" selection-start-line="7" selection-start-column="120" selection-end-line="7" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_split.py" />
+    <entry file="file://$PROJECT_DIR$/2_txt2yolo_label.py" />
+    <entry file="file://$PROJECT_DIR$/image/1-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myutils/change_VOC_Label_name.py" />
+    <entry file="file://$PROJECT_DIR$/myutils/name_list.txt" />
+    <entry file="file://$PROJECT_DIR$/myutils/make_VOC_file.py" />
+    <entry file="file://$PROJECT_DIR$/runs/detect/exp5/1-1.jpg" />
+    <entry file="file://$PROJECT_DIR$/DenseNet/FP60_save_model/1/conf_matrix.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/cal_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2600">
+          <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydetect_bak.py" />
+    <entry file="file://$PROJECT_DIR$/detect.py" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/VOCData/Annotations/1-1-32.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/yolov5m.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/BHIC/Lib/site-packages/torchvision/datasets/folder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="921">
+          <caret line="252" selection-start-line="252" selection-end-line="252" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DenseNet/MyDensenetModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4779">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/BHIC/Lib/site-packages/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23375">
+          <caret line="946" selection-start-line="946" selection-end-line="946" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/general.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4825">
+          <caret line="212" selection-start-line="212" selection-end-line="225" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/scripts/get_voc.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/argoverse_hd.yaml" />
+    <entry file="file://$PROJECT_DIR$/data/hyp.scratch.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_yolov5_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="478" column="23" selection-start-line="478" selection-start-column="23" selection-end-line="478" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_densenet_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyYolov5Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHIC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-775">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="e#1#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DenseNet/FP60_save_model/1/logger.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25900">
+          <caret line="1036" lean-forward="true" selection-start-line="1036" selection-end-line="1036" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_test_once.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
