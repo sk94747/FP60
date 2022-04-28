@@ -1,9 +1,9 @@
 from DenseNet.MyDensenetModel import *
 
 def get_dataset_by_family_id(family_id):
-    root_data_path = "./DenseNet/FP60/"
+    root_data_path = "./datasets/FP60_Family/"
     train_data_path = root_data_path + str(family_id) + "/train"
-    val_data_path = root_data_path+ str(family_id) + "/val"
+    val_data_path = root_data_path + str(family_id) + "/val"
     test_data_path = root_data_path + str(family_id) + "/test"
     return train_data_path, val_data_path, test_data_path
 
@@ -12,6 +12,6 @@ if __name__ == '__main__':
     train_data_path, val_data_path, test_data_path = get_dataset_by_family_id(family_id)
     model = MyDensenetModel(train_data_path, val_data_path, test_data_path)
     # train the model and save model
-    model.train_model()
+    model.train_model(is_save=True)
     # test the model
     model.test_model()

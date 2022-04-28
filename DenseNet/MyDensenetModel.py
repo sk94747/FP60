@@ -29,7 +29,6 @@ data_transform = transforms.Compose([
     transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
 ])
 
-
 class MyDensenetModel:
     def __init__(self, train_data_path, val_data_path, test_data_path):
         # train & val & test dataset load by ImageFolder
@@ -91,7 +90,7 @@ class MyDensenetModel:
             if self.use_cuda:
                 model.load_state_dict(torch.load(load_model_path))
             else:
-                model.load_state_dict(torch.load(load_model_path, map_location='cpu'))
+                model.load_state_dict(torch.load(load_model_path, map_location='cpu'), strict=False)
 
         if self.use_cuda:
             model = model.cuda()
@@ -134,10 +133,11 @@ class MyDensenetModel:
         if is_save:
             print("========= Train Finish and Save Model ==========")
             model_name = "DenseNet_" + self.dataset_name + "_" + self.dataset_id + ".pth"
-            save_file_name = self.dataset_name + "_save_model"
-            save_path = save_file_name + "/" + self.dataset_id + "/" + model_name
+            save_model_dir = "./DenseNet/" + self.dataset_name + "_model_save"
+            save_path = save_model_dir + "/" + model_name
             print('model save path：', save_path)
             torch.save(self.model.state_dict(), save_path)
+            #torch.save(self.model.classifier.state_dict(), save_path)
             print("========= Model Save Success ==========")
 
     # validate model
@@ -166,7 +166,7 @@ class MyDensenetModel:
 
     # test model
     def test_model(self):
-        self.model.eval()
+        self.best_model.eval()
         print("========= Model Test Begin ==========")
         print("test dataset num：", len(self.test_data))
 
@@ -200,31 +200,69 @@ class MyDensenetModel:
 
 
         # plot the confusion matrix
-        # plt_save_path = self.dataset_name + "_save_model/" + self.dataset_id + "/conf_matrix.jpg"
-        # myutils.plot_confusion_matrix(conf_matrix.numpy(), classes=self.train_data.classes, normalize=False, title='Normalized confusion matrix', save_path=plt_save_path)
+        plt_save_path = "./conf_matrix.jpg"
+        myutils.plot_confusion_matrix(conf_matrix.numpy(), classes=self.train_data.classes, normalize=False, title='DenseNet confusion matrix', save_path=plt_save_path)
+        print(conf_matrix)
+        # Calculate accuracy, recall rate, F1 score through confusion matrix
+        cal_utils.my_cal(self.train_data.class_to_idx, conf_matrix)
 
+    # test model
+    def tmp_test_model(self):
+        self.best_model.eval()
+        print("========= Model Test Begin ==========")
+        print("test dataset num：", len(self.test_data))
+
+        # Create an empty confusion matrix
+        conf_matrix = torch.zeros(self.N_classes, self.N_classes)
+
+        time_start = time.time()
+        n_correct = 0
+
+        for step, (t_x, t_y) in enumerate(self.test_loader):
+            if self.use_cuda:
+                t_x = t_x.cuda()
+
+            test_output = self.best_model(t_x)
+
+            if self.use_cuda:
+                pred_y = torch.max(test_output, 1)[1].cpu().data.numpy()
+            else:
+                pred_y = torch.max(test_output, 1)[1].data.numpy()
+
+            # update confusion matrix
+            conf_matrix = myutils.confusion_matrix(pred_y, labels=t_y.data.numpy(), conf_matrix=conf_matrix)
+
+            n_correct += float((pred_y == t_y.data.numpy()).astype(int).sum())
+
+        time_end = time.time()
+        print('Test time cost %.2f s' % (time_end - time_start))
+        print("Total true count = ", n_correct)
+        acc = (n_correct / len(self.test_data))
+        print('The final_acc is %.2f' % (acc * 100), "%")
+
+        # plot the confusion matrix
+        plt_save_path = "./conf_matrix.jpg"
+        myutils.plot_confusion_matrix(conf_matrix.numpy(), classes=self.train_data.classes, normalize=False,
+                                      title='DenseNet confusion matrix', save_path=plt_save_path)
+        print(conf_matrix)
         # Calculate accuracy, recall rate, F1 score through confusion matrix
         cal_utils.my_cal(self.train_data.class_to_idx, conf_matrix)
 
     # test one image
-    def test_once(self, test_img_path):
+    def test_once(self, test_img):
         self.model.eval()
 
-        img = Image.open(test_img_path)
-        img = data_transform(img)
+        img = data_transform(test_img)
         img = torch.unsqueeze(img, 0)
 
         if self.use_cuda:
             img = img.cuda()
 
         test_output = self.model(img)
-
-        print("test_output:", test_output)
         if self.use_cuda:
             pred_y = torch.max(test_output, 1)[1].cpu().data.numpy()
         else:
             pred_y = torch.max(test_output, 1)[1].data.numpy()
-        print("pre_y:", pred_y)
         classes_dict = dict(zip(self.train_data.class_to_idx.values(), self.train_data.class_to_idx.keys()))
 
         # print(new_dict)
@@ -241,4 +279,3 @@ class MyDensenetModel:
         torch.backends.cudnn.benchmark = False
         torch.backends.cudnn.deterministic = True
         torch.backends.cudnn.enabled = True
-

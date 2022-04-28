@@ -56,6 +56,6 @@ def plot_confusion_matrix(cm, classes, normalize=False, title='Confusion matrix'
     plt.tight_layout()
     plt.ylabel('True label')
     plt.xlabel('Predicted label')
-    if save_path is not "":
+    if save_path != "":
         plt.savefig(save_path)
     plt.show()
