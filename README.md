@@ -8,7 +8,7 @@ According to the distribution of forestry pests in Jiangsu Province, China, we s
 ![image](https://github.com/sk94747/FP60/blob/main/datasets/FP60_DATASET.jpg)
 
 ## Families and Species
-![image](https://github.com/sk94747/FP60/tree/main/datasets/FamiliesAndSpecies.png)
+![image](https://github.com/sk94747/FP60/blob/main/datasets/FamiliesAndSpecies.png)
 
 
 ## Data Download
